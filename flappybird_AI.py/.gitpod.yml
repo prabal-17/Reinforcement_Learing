@@ -1,0 +1,6 @@
+tasks:
+  - init: pip install -r requirements.txt
+    command: python flappybirdAI.py
+ports:
+  - port: 6000
+    onOpen: open-preview
